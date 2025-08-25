@@ -1,33 +1,39 @@
-📄 AI Powered Resume Analysis
+# AI Powered Resume Analysis
+# Link : https://1screener.netlify.app
 
-An intelligent web application that helps job seekers analyze, enhance, and optimize resumes using AI. The system extracts key skills, recommends career roles, evaluates resume strength, and highlights recruiter friendly keywords — all through a clean and responsive interface.
+This is a web app that helps job seekers understand and improve their resumes.  
+It pulls out key skills, suggests career roles, gives a strength score, and highlights recruiter-friendly keywords — all in a simple, responsive interface.
 
-🚀 Tech Stack
-🖥️ Backend
+---
 
-🐍 Python, FastAPI, SQLAlchemy, SQLite
-📄 Document parsing with python docx and PyPDF2
+## Tech Stack
 
-🤖 AI
+### Backend
+- Python, FastAPI, SQLAlchemy, SQLite  
+- Resume parsing with python-docx and PyPDF2  
 
-OpenAI API for skill extraction, role suggestion, and resume scoring
+### AI
+- OpenAI API for skill extraction, role suggestions, and scoring  
 
-🎨 Frontend
+### Frontend
+- React, TypeScript, Vite, TailwindCSS  
+- React Router for navigation  
+- Axios for API calls  
 
-⚛️ React, TypeScript, Vite, TailwindCSS
-🔗 React Router for navigation
-🔌 Axios for API integration
+### Infra
+- REST API with JSON responses  
+- CORS enabled for smooth frontend ↔ backend integration  
 
-☁️ Build and Infra
+---
 
-RESTful API with JSON responses
-CORS enabled backend for smooth frontend integration
+## Features
+- PDF and DOCX parsing with cleaning and normalization  
+- AI-driven insights: skills, career roles, strength score, recruiter keywords  
+- Stores past analyses in SQLite  
+- Clean and responsive UI with drag & drop upload and results dashboard  
 
-✨ Features
+---
 
-📑 PDF and DOCX parsing with cleaning and normalization
-🎯 AI driven insights including skills, career roles, strength score, and recruiter friendly keywords
-🗄 SQLite persistence for storing and querying past analyses
-💻 Responsive UI with drag and drop upload and results dashboard
-
-⚡ Designed to help applicants understand recruiter expectations and improve their chances with data driven insights.
+## Why
+The idea is simple: most resumes get rejected without feedback.  
+This project helps applicants see what’s missing and what can be improved, using data-driven insights instead of guesswork.
