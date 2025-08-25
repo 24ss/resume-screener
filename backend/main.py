@@ -16,7 +16,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "https://1screener.netlify.app/"
-        "https://resume-screener-gikv.onrender.com"
+        "https://resume-screener-az5y.onrender.com"
         "http://localhost:3000",  # Create React App default
         "http://localhost:5173",  # Vite default
         "http://127.0.0.1:3000",
