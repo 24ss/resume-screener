@@ -1,6 +1,8 @@
 # AI Powered Resume Analysis
 # Link : https://1screener.netlify.app
 
+![ars](https://github.com/user-attachments/assets/451fd3a0-995e-4d4f-af03-a9f9cbf75703)
+
 This is a web app that helps job seekers understand and improve their resumes.  
 It pulls out key skills, suggests career roles, gives a strength score, and highlights recruiter-friendly keywords — all in a simple, responsive interface.
 
